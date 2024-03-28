@@ -1,0 +1,70 @@
+/* SkeletonFlight.css */
+.skeleton-image {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc; /* Placeholder color */
+    border-radius: 50%;
+  }
+  
+  .skeleton-text {
+    width: 100px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .skeleton-text-block {
+    width: 50px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .skeleton-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .skeleton-tags {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .skeleton-tag {
+    width: 80px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .skeleton-button {
+    width: 80px;
+    height: 32px;
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  @keyframes skeletonPulse {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
+  .skeleton-image,
+  .skeleton-text,
+  .skeleton-text-block,
+  .skeleton-icon,
+  .skeleton-tag,
+  .skeleton-button {
+    animation: skeletonPulse 1.5s infinite;
+  }
